@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <!-- font awesome cdn link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
+      integrity="sha512-PgQMlq+nqFLV4ylk1gwUOgm6CtIIXkKwaIHp/PAIWHzig/lKZSEGKEysh0TCVbHJXCLN7WetD8TFecIky75ZfQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <title>New Project</title>
+  </head>
+  <body class="overflow-x-hidden">
+    <!-- *******😁😁😁  Header  started -->
+    <header>
+      <nav
+        class="flex items-center justify-around h-20 sm:justify-between dark:bg-slate-900"
+      >
+        <div class="ml-5 p-4">
+          <span
+            class="font-bold text-black text-xl sm:text-2xl dark:text-white hover:text-green-400"
+            ><a
+              href=""
+              class="hover:text-green-400"
+              title="developersapi home page"
+            >
+              developersapi</a
+            >
+          </span>
+        </div>
+
+        <div
+          class="mr-6 p-4 flex items-center justify-center space-x-3 dark:text-white"
+        >
+          <ul
+            id="ham_menu"
+            class="font-semibold text-base text-black absolute w-48 h-48 top-16 right-1 bg-slate-200 hidden sm:static sm:w-auto sm:h-auto sm:flex sm:bg-transparent dark:text-white dark:bg-slate-900"
+          >
+            <li class="sm:hidden">
+              <i
+                title="close"
+                id="ham_menu_close"
+                class="fas fa-times mb-2 mt-1 mr-2 p-2 cursor-pointer w-11/12 text-right hover:text-green-400"
+              ></i>
+            </li>
+            <li class="mx-3 cursor-pointer hover:text-green-400">
+              <a href="" title="go to home page">Home</a>
+            </li>
+            <li class="mx-3 cursor-pointer hover:text-green-400">
+              <a href="" title="go to document page">Doc</a>
+            </li>
+            <li class="mx-3 cursor-pointer hover:text-green-400">
+              <a href="" title="go to contact us page">Contact</a>
+            </li>
+          </ul>
+
+          <span class="hidden font-bold sm:block">|</span>
+          <span
+            ><i
+              title="toggle theme mode"
+              id="theme_button"
+              class="fas fa-sun mr-2 -ml-8 sm:ml-auto cursor-pointer hover:text-green-400"
+            ></i
+          ></span>
+          <span id="ham_menu_button" class="sm:hidden cursor-pointer"
+            ><i class="fas fa-ellipsis-v" title="menu"></i
+          ></span>
+        </div>
+      </nav>
+    </header>
+
+    <!-- *******😁😁😁  top section  short introductary section about the site -->
+    <section
+      id="top_homepage "
+      class="h-[90vh] lg:h-[80vh] min-h-fit dark:bg-slate-800"
+    >
+      <article
+        class="flex items-center justify-center flex-col w-screen max-h-fit h-full pb-12 min-h-fit dark:text-white"
+      >
+        <h1
+          class="text-slate-900 text-3xl mx-3 mt-16 text-center font-extrabold sm:mt-24 sm:text-5xl sm:w-10/12 md:text-6xl md:w-11/12 dark:text-white"
+        >
+          Rapidly build modern websites without ever leaving your HTML.
+        </h1>
+        <p class="text-center my-7 mx-3 sm:text-xl sm:w-9/12 md:w-10/12">
+          A utility-first CSS framework packed with classes like flex, pt-4,
+          text-center and rotate-90 that can be composed to build any design,
+          directly in your markup.
+        </p>
+        <div class="mt-2 mb-12">
+          <a
+            href=""
+            class="rounded-md p-3 font-bold text-xl bg-black text-white hover:bg-[#525252] drop-shadow-2xl hover:text-green-400 dark:hover:bg-slate-700"
+            title="go to apis section"
+          >
+            Get Started
+          </a>
+        </div>
+      </article>
+    </section>
+    <!-- sm:bg-red-400 md:bg-blue-500 lg:bg-yellow-400 -->
+
+    <!-- *******😁RANDON PEOPLE API😁😁  second of home section  short introductary section about the api calls and how will data look like . -->
+
+    <section class="dark:bg-slate-800 border mb-28  ">
+      <div
+        class="flex items-center justify-center flex-col md:flex-row w-screen h-screen min-h-fit md:h-96"
+      >
+        <article
+          class="flex items-center justify-center flex-col w-11/12 mx-3 md:w-5/12 h-1/3 md:h-full text-center dark:text-white"
+        >
+          <h1 class="font-bold text-2xl mt-3 sm:text-3xl mb-3">
+            Lets Get Started.
+          </h1>
+          <p class="font-normal sm:font-medium px-2">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+            Reprehenderit et debitis expedita dolores sunt velit doloribus
+            similique. Harum facilis recusandae expedita fugiat praesentium
+            quibusdam deserunt atque fuga, sit quasi dolorem?
+          </p>
+        </article>
+        <article
+          class="w-11/12 md:w-6/12 h-2/3 md:h-full drop-shadow-2xl rounded-lg overflow-scroll mostly-customized-scrollbar bg-gray-300 dark:text-white dark:bg-slate-700 mx-3"
+        >
+          <h1
+            class="flex items-center justify-center h-20 sm:h-12 w-full bg-gray-200 drop-shadow-2xl dark:bg-slate-700"
+          >
+            <code class="flex-wrap ml-3 p-3">
+              <span
+                class="font-bold p-2 rounded-md text-white bg-black hover:text-green-400 cursor-pointer"
+                title="link"
+                >Link</span
+              >
+              <span class="font-semibold"
+                >https://localhost:8080.com/api/fiw?name=wewe/
+              </span>
+            </code>
+          </h1>
+          <pre>
+            <code class="even:text-green-400 m-3">
+            <span>[</span>
+              <span>{</span>
+                "name":"Himanshu uttam",
+                "roll":233,
+                "school":"Kanpur public school",
+                "village":"Kanpur Monohar khear",
+                "bhaiya":"Priyanshu uttam",
+                "bhaiji":"Rahul Raj Uttam",
+                "bade bhaiji":"Saurabh Uttam"
+             <span>}</span>
+              <span>{</span>
+                "name":"Himanshu uttam",
+                "roll":233,
+                "school":"Kanpur public school",
+                "village":"Kanpur Monohar khear",
+                "bhaiya":"Priyanshu uttam",
+                "bhaiji":"Rahul Raj Uttam",
+                "bade bhaiji":"Saurabh Uttam"
+             <span>}</span>
+              <span>{</span>
+                "name":"Himanshu uttam",
+                "roll":233,
+                "school":"Kanpur public school",
+                "village":"Kanpur Monohar khear",
+                "bhaiya":"Priyanshu uttam",
+                "bhaiji":"Rahul Raj Uttam",
+                "bade bhaiji":"Saurabh Uttam"
+             <span>}</span>
+            <span>]</span>
+
+            
+             </code>
+          </pre>
+        </article>
+      </div>
+    </section>
+
+    <!-- *******😁RANDON IMAGE API😁😁  second of home section  short introductary section about the api calls and how will data look like . -->
+
+    <section class="dark:bg-slate-800  border ">
+      <div
+        class="flex items-center justify-center flex-col md:flex-row w-screen h-screen min-h-fit md:h-96"
+      >
+        <article
+          class="w-11/12 md:w-6/12 h-2/3 md:h-full drop-shadow-2xl rounded-lg overflow-scroll mostly-customized-scrollbar bg-gray-300 dark:text-white dark:bg-slate-700 mx-3"
+        >
+          <h1
+            class="flex items-center justify-center h-20 sm:h-12 w-full bg-gray-200 drop-shadow-2xl dark:bg-slate-700"
+          >
+            <code class="flex-wrap ml-3 p-3">
+              <span
+                class="font-bold p-2 rounded-md text-white bg-black hover:text-green-400 cursor-pointer"
+                title="link"
+                >Link</span
+              >
+              <span class="font-semibold"
+                >https://localhost:8080.com/api/fiw?name=wewe/
+              </span>
+            </code>
+          </h1>
+          <pre>
+        <code class="even:text-green-400 m-3">
+        <span>[</span>
+          <span>{</span>
+            "name":"Himanshu uttam",
+            "roll":233,
+            "school":"Kanpur public school",
+            "village":"Kanpur Monohar khear",
+            "bhaiya":"Priyanshu uttam",
+            "bhaiji":"Rahul Raj Uttam",
+            "bade bhaiji":"Saurabh Uttam"
+         <span>}</span>
+          <span>{</span>
+            "name":"Himanshu uttam",
+            "roll":233,
+            "school":"Kanpur public school",
+            "village":"Kanpur Monohar khear",
+            "bhaiya":"Priyanshu uttam",
+            "bhaiji":"Rahul Raj Uttam",
+            "bade bhaiji":"Saurabh Uttam"
+         <span>}</span>
+          <span>{</span>
+            "name":"Himanshu uttam",
+            "roll":233,
+            "school":"Kanpur public school",
+            "village":"Kanpur Monohar khear",
+            "bhaiya":"Priyanshu uttam",
+            "bhaiji":"Rahul Raj Uttam",
+            "bade bhaiji":"Saurabh Uttam"
+         <span>}</span>
+        <span>]</span>
+
+        
+         </code>
+      </pre>
+        </article>
+        <article
+          class="flex items-center justify-center flex-col w-11/12 mx-3 md:w-5/12 h-1/3 md:h-full text-center dark:text-white"
+        >
+          <h1 class="font-bold text-2xl mt-3 sm:text-3xl mb-3">
+            Lets Get Started.
+          </h1>
+          <p class="font-normal sm:font-medium px-2">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+            Reprehenderit et debitis expedita dolores sunt velit doloribus
+            similique. Harum facilis recusandae expedita fugiat praesentium
+            quibusdam deserunt atque fuga, sit quasi dolorem?
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <!-- 🤷‍♂️🤷‍♂️🤷‍♂️🤷‍♂️ -->
+
+    <!-- <section class="w-screen h-[90vh] flex justify-center items-center m-4">
+      <div
+        class="flex items-center justify-center flex-col md:flex-row w-screen h-screen min-h-fit md:h-96"
+      >
+        <article
+          class="flex items-center justify-center flex-col w-11/12 md:w-6/12 h-2/3 md:h-full drop-shadow-2xl rounded-lg overflow-scroll mostly-customized-scrollbar bg-gray-300 dark:text-white dark:bg-slate-700 mx-3"
+        >
+          <h1
+            class="flex items-center justify-center m-3 w-9/12 h-20 sm:h-12 bg-gray-200 drop-shadow-2xl dark:bg-slate-700"
+          >
+            <span
+              class="font-bold p-2 rounded-md text-white bg-black hover:text-green-400 cursor-pointer"
+              title="link"
+              >GET</span
+            >
+            >https://localhost:8080.com/api/fiw?name=wewe/
+          </h1>
+
+          <h1
+            class="flex items-center justify-center m-3 w-9/12 h-20 sm:h-12 bg-gray-200 drop-shadow-2xl dark:bg-slate-700"
+          >
+            <span
+              class="font-bold p-2 rounded-md text-white bg-black hover:text-green-400 cursor-pointer"
+              title="link"
+              >POST</span
+            >
+            >https://localhost:8080.com/api/fiw?name=wewe/
+          </h1>
+        </article>
+
+        <article
+          class="flex items-center justify-center flex-col w-11/12 mx-3 md:w-5/12 h-1/3 md:h-full text-center dark:text-white"
+        >
+          <h1 class="font-bold text-2xl mt-3 sm:text-3xl mb-3">
+            Lets Get Started.
+          </h1>
+          <p class="font-normal sm:font-medium px-2">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+            Reprehenderit et debitis expedita dolores sunt velit doloribus
+            similique. Harum facilis recusandae expedita fugiat praesentium
+            quibusdam deserunt atque fuga, sit quasi dolorem?
+          </p>
+        </article>
+      </div>
+    </section> -->
+
+    <script src="./index.js"></script>
+  </body>
+</html>
