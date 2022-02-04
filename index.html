@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="" />
     <link rel="stylesheet" href="./style.css" />
     <!-- font awesome cdn link -->
     <link
@@ -16,7 +17,7 @@
 
     <title>New Project</title>
   </head>
-  <body class="overflow-x-hidden">
+  <body class="overflow-x-hidden h-screen w-screen antialiased">
     <!-- *******😁😁😁  Header  started -->
     <header>
       <nav
@@ -76,12 +77,9 @@
     </header>
 
     <!-- *******😁😁😁  top section  short introductary section about the site -->
-    <section
-      id="top_homepage "
-      class="h-[90vh] lg:h-[80vh] min-h-fit dark:bg-slate-800"
-    >
+    <section id="top_homepage " class="lg:h-[80vh] min-h-fit dark:bg-slate-800">
       <article
-        class="flex items-center justify-center flex-col w-screen max-h-fit h-full pb-12 min-h-fit dark:text-white"
+        class="h-[35rem] sm:h-full flex items-center justify-center flex-col w-screen max-h-fit py-8 min-h-fit dark:text-white"
       >
         <h1
           class="text-slate-900 text-3xl mx-3 mt-16 text-center font-extrabold sm:mt-24 sm:text-5xl sm:w-10/12 md:text-6xl md:w-11/12 dark:text-white"
@@ -104,16 +102,17 @@
         </div>
       </article>
     </section>
+
     <!-- sm:bg-red-400 md:bg-blue-500 lg:bg-yellow-400 -->
 
     <!-- *******😁RANDON PEOPLE API😁😁  second of home section  short introductary section about the api calls and how will data look like . -->
 
-    <section class="dark:bg-slate-800 border mb-28  ">
+    <section class="dark:bg-slate-800 border lg:pt-12 xl:pt-3 pb-20">
       <div
-        class="flex items-center justify-center flex-col md:flex-row w-screen h-screen min-h-fit md:h-96"
+        class="flex items-center justify-center flex-col sm:h-full lg:flex-row w-screen min-h-fit border-8"
       >
         <article
-          class="flex items-center justify-center flex-col w-11/12 mx-3 md:w-5/12 h-1/3 md:h-full text-center dark:text-white"
+          class="h-[26rem] flex items-center justify-center flex-col w-11/12 lg:w-5/12 lg:h-full text-center dark:text-white border"
         >
           <h1 class="font-bold text-2xl mt-3 sm:text-3xl mb-3">
             Lets Get Started.
@@ -125,11 +124,12 @@
             quibusdam deserunt atque fuga, sit quasi dolorem?
           </p>
         </article>
+
         <article
-          class="w-11/12 md:w-6/12 h-2/3 md:h-full drop-shadow-2xl rounded-lg overflow-scroll mostly-customized-scrollbar bg-gray-300 dark:text-white dark:bg-slate-700 mx-3"
+          class="h-[28rem] w-11/12 lg:w-6/12 p-3 drop-shadow-2xl rounded-lg overflow-scroll mostly-customized-scrollbar bg-gray-300 dark:text-white dark:bg-slate-700 mx-3 border"
         >
           <h1
-            class="flex items-center justify-center h-20 sm:h-12 w-full bg-gray-200 drop-shadow-2xl dark:bg-slate-700"
+            class="flex items-center justify-center h-20 sm:h-12 w-full bg-gray-200 drop-shadow-2xl dark:bg-slate-700 sticky top-0"
           >
             <code class="flex-wrap ml-3 p-3">
               <span
@@ -142,8 +142,8 @@
               </span>
             </code>
           </h1>
-          <pre>
-            <code class="even:text-green-400 m-3">
+          <pre class="text-left">
+            <code class="even:text-green-400 m-3 ">
             <span>[</span>
               <span>{</span>
                 "name":"Himanshu uttam",
@@ -183,15 +183,15 @@
 
     <!-- *******😁RANDON IMAGE API😁😁  second of home section  short introductary section about the api calls and how will data look like . -->
 
-    <section class="dark:bg-slate-800  border ">
+    <section class="dark:bg-slate-800 border pb-20">
       <div
-        class="flex items-center justify-center flex-col md:flex-row w-screen h-screen min-h-fit md:h-96"
+        class="flex items-center justify-center flex-col sm:h-full lg:flex-row w-screen min-h-fit border-8"
       >
         <article
-          class="w-11/12 md:w-6/12 h-2/3 md:h-full drop-shadow-2xl rounded-lg overflow-scroll mostly-customized-scrollbar bg-gray-300 dark:text-white dark:bg-slate-700 mx-3"
+          class="h-[28rem] w-11/12 lg:w-6/12 p-3 drop-shadow-2xl rounded-lg overflow-scroll mostly-customized-scrollbar bg-gray-300 dark:text-white dark:bg-slate-700 mx-3 border"
         >
           <h1
-            class="flex items-center justify-center h-20 sm:h-12 w-full bg-gray-200 drop-shadow-2xl dark:bg-slate-700"
+            class="flex items-center justify-center h-20 sm:h-12 w-full bg-gray-200 drop-shadow-2xl dark:bg-slate-700 sticky top-0"
           >
             <code class="flex-wrap ml-3 p-3">
               <span
@@ -204,44 +204,44 @@
               </span>
             </code>
           </h1>
-          <pre>
-        <code class="even:text-green-400 m-3">
-        <span>[</span>
-          <span>{</span>
-            "name":"Himanshu uttam",
-            "roll":233,
-            "school":"Kanpur public school",
-            "village":"Kanpur Monohar khear",
-            "bhaiya":"Priyanshu uttam",
-            "bhaiji":"Rahul Raj Uttam",
-            "bade bhaiji":"Saurabh Uttam"
-         <span>}</span>
-          <span>{</span>
-            "name":"Himanshu uttam",
-            "roll":233,
-            "school":"Kanpur public school",
-            "village":"Kanpur Monohar khear",
-            "bhaiya":"Priyanshu uttam",
-            "bhaiji":"Rahul Raj Uttam",
-            "bade bhaiji":"Saurabh Uttam"
-         <span>}</span>
-          <span>{</span>
-            "name":"Himanshu uttam",
-            "roll":233,
-            "school":"Kanpur public school",
-            "village":"Kanpur Monohar khear",
-            "bhaiya":"Priyanshu uttam",
-            "bhaiji":"Rahul Raj Uttam",
-            "bade bhaiji":"Saurabh Uttam"
-         <span>}</span>
-        <span>]</span>
+          <pre class="text-left">
+          <code class="even:text-green-400 m-3 ">
+          <span>[</span>
+            <span>{</span>
+              "name":"Himanshu uttam",
+              "roll":233,
+              "school":"Kanpur public school",
+              "village":"Kanpur Monohar khear",
+              "bhaiya":"Priyanshu uttam",
+              "bhaiji":"Rahul Raj Uttam",
+              "bade bhaiji":"Saurabh Uttam"
+           <span>}</span>
+            <span>{</span>
+              "name":"Himanshu uttam",
+              "roll":233,
+              "school":"Kanpur public school",
+              "village":"Kanpur Monohar khear",
+              "bhaiya":"Priyanshu uttam",
+              "bhaiji":"Rahul Raj Uttam",
+              "bade bhaiji":"Saurabh Uttam"
+           <span>}</span>
+            <span>{</span>
+              "name":"Himanshu uttam",
+              "roll":233,
+              "school":"Kanpur public school",
+              "village":"Kanpur Monohar khear",
+              "bhaiya":"Priyanshu uttam",
+              "bhaiji":"Rahul Raj Uttam",
+              "bade bhaiji":"Saurabh Uttam"
+           <span>}</span>
+          <span>]</span>
 
-        
-         </code>
-      </pre>
+          
+           </code>
+        </pre>
         </article>
         <article
-          class="flex items-center justify-center flex-col w-11/12 mx-3 md:w-5/12 h-1/3 md:h-full text-center dark:text-white"
+          class="h-[26rem] flex items-center justify-center flex-col w-11/12 lg:w-5/12 lg:h-full text-center dark:text-white border"
         >
           <h1 class="font-bold text-2xl mt-3 sm:text-3xl mb-3">
             Lets Get Started.
